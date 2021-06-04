@@ -30,11 +30,14 @@ public class JavaSpringTemplateApplication {
 		 */
 		
 		Pessoa pf = new PessoaFisica("45875412575", "PF");
-
+		Pessoa pj = new PessoaJuridica("135.123.754/01", "PJ");
 		
 		
 		System.out.println(pf.falarDocumento());
 		System.out.println(pf.getTipo());
+		
+		System.out.println(pj.falarDocumento());
+		System.out.println(pj.getTipo());
 	}
 
 }
